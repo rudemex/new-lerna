@@ -8,7 +8,7 @@
     "lerna": "^8.1.9"
   },
   "scripts": {
-    "pre-release": "lerna version --conventional-commits --changelog-preset --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
-    "release": "GH_TOKEN=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 lerna version --conventional-commits --changelog-preset --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
+    "pre-release": "lerna version --conventional-commits --changelog-preset conventionalcommits --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
+    "release": "GH_TOKEN=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 lerna version --conventional-commits --changelog-preset conventionalcommits --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
   }
 }
