@@ -1,4 +1,5 @@
 module.exports = {
+    name: "conventionalcommits",
     header: '<div align="center"><h1>📝 Changelog</h1><p>All changes in this package are documented below.</p></div>\n\n---\n',
     types: [
         { type: "feat", section: "✨ Features", hidden: false },
