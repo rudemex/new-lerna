@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.4 (2024-10-31)</small>
+
+* feat: remove comment ([78df631](https://github.com/rudemex/new-lerna/commit/78df631))
+
+
+
+
+
 ## <small>1.1.3 (2024-10-31)</small>
 
 * feat: add comment ([f74820f](https://github.com/rudemex/new-lerna/commit/f74820f))
