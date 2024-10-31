@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.2 (2024-10-31)</small>
+
+* fix(my-pkg): remove comment ([102162e](https://github.com/rudemex/new-lerna/commit/102162e))
+
+
+
+
+
 ## <small>1.1.1 (2024-10-31)</small>
 
 * chore: edit monorepo ([9cefe31](https://github.com/rudemex/new-lerna/commit/9cefe31))
