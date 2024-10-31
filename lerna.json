@@ -22,8 +22,7 @@
           {"type": "ci", "hidden": true},
           {"type": "revert", "hidden": true}
         ],
-        "issuePrefixes": ["#"],
-        "releaseCommitMessageFormat": "chore(release): {{currentTag}}"
+        "issuePrefixes": ["#"]
       }
     },
     "publish": {
