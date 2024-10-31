@@ -3,11 +3,11 @@
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
-  "changelogPreset": "./changelog-config.js",
   "command": {
     "version": {
       "allowBranch": ["master"],
       "conventionalCommits": true,
+      "changelogPreset": "./changelog-config.js"
     },
     "publish": {
       "conventionalCommits": true,

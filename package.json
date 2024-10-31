@@ -8,5 +8,9 @@
     "@lerna/conventional-commits": "^6.4.1",
     "conventional-changelog-cli": "^5.0.0",
     "lerna": "^8.1.9"
+  },
+  "scripts": {
+    "pre-release": "lerna version --conventional-commits --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
+    "release": "lerna version --conventional-commits --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
   }
 }

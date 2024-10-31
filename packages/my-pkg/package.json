@@ -14,8 +14,6 @@
     "lib"
   ],
   "scripts": {
-    "test": "node ./__tests__/my-pkg.test.js",
-    "pre-release": "lerna version --conventional-commits --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
-    "release": "lerna version --conventional-commits --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
+    "test": "node ./__tests__/my-pkg.test.js"
   }
 }
