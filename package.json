@@ -4,8 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
   "devDependencies": {
+    "@lerna/conventional-commits": "^6.4.1",
+    "conventional-changelog-cli": "^5.0.0",
     "lerna": "^8.1.9"
   }
 }

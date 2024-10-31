@@ -2,12 +2,12 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "packages": ["packages/*"],
   "version": "independent",
-
   "npmClient": "yarn",
   "command": {
     "version": {
       "allowBranch": ["master"],
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "changelogPreset": "./changelog-config.js"
     },
     "publish": {
       "conventionalCommits": true,
