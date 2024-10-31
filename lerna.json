@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "packages": ["packages/*"],
+  "version": "independent",
+
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": ["master"],
+      "conventionalCommits": true,
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "allowBranch": ["master"],
+      "includeMergedTags": true,
+      "message": "ci(release): publish packages"
+    }
+  }
+}
