@@ -6,7 +6,7 @@
     "version": {
       "allowBranch": ["master"],
       "conventionalCommits": true,
-      "changelogPreset": "./changelogPreset.config.js"
+      "changelogPreset": "./changelog-preset.js"
     },
     "publish": {
       "conventionalCommits": true,
