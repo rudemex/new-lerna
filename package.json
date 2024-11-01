@@ -6,10 +6,10 @@
   ],
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^7.0.2",
-    "lerna": "^8.1.6"
+    "lerna": "^8.1.9"
   },
   "scripts": {
-    "pre-release": "lerna version --conventional-commits --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
-    "release": "lerna version --conventional-commits --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
+    "pre-release": "lerna version --conventional-commits --changelog-preset conventionalcommits --no-changelog --conventional-prerelease --no-git-tag-version --preid=beta --yes -m \"ci(version): version packages as pre-release\"",
+    "release": "lerna version --conventional-commits --changelog-preset conventionalcommits --force-git-tag --conventional-graduate --yes --create-release github -m \"ci(version): version packages as release\""
   }
 }

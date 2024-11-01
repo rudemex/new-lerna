@@ -9,7 +9,7 @@
       "conventionalCommits": true,
       "changelogPreset": {
         "name": "conventionalcommits",
-        "header": "##\uD83D\uDCDD Changelog\n\nAll changes of this package will be documented in this file.\n\n---\n",
+        "header": "# \uD83D\uDCDD Changelog\n\nAll notable changes of this package will be documented in this file.\n\n---\n",
         "types": [
           {"type": "feat", "section": "✨ Features", "hidden": false},
           {"type": "fix", "section": "\uD83D\uDC1B Bug Fixes", "hidden": false},
