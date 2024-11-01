@@ -11,16 +11,11 @@ module.exports = config({
         { type: "refactor", section: "♻️ Refactors", hidden: false },
         { type: "test", section: "🧪 Tests", hidden: false },
         { type: "build", section: "🛠 Build", hidden: true },
-        { type: "infra", section: "Infrastructure Changes", hidden: true },
+        { type : "infra", section: "🏗️ Infrastructure Changes", hidden: false },
         { type: "perf", hidden: true },
         { type: "style", hidden: true },
         { type: "ci", hidden: true },
         { type: "revert", hidden: true }
     ],
     issuePrefixes: ["#"],
-    commitUrlFormat: "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
-    compareUrlFormat: "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
-    issueUrlFormat: "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
-    userUrlFormat: "{{host}}/{{user}}",
-    releaseCommitMessageFormat: "chore(release): {{currentTag}}"
 })
