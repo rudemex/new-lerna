@@ -7,7 +7,6 @@
       "allowBranch": ["master"],
       "conventionalCommits": true,
       "changelogPreset": {
-        "name":"conventionalcommits",
         "types": [
           {"type": "feat", "section": "✨ Features", "hidden": false},
           {"type": "fix", "section": "\uD83D\uDC1B Bug Fixes", "hidden": false},
