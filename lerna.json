@@ -1,4 +1,5 @@
 {
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
@@ -6,7 +7,9 @@
     "version": {
       "allowBranch": ["master"],
       "conventionalCommits": true,
-      "changelogPreset": "./changelog-preset.cjs"
+      "changelogPreset": {
+        "name": "./changelog-preset.cjs"
+      }
     },
     "publish": {
       "conventionalCommits": true,
