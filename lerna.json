@@ -17,6 +17,7 @@
           {"type": "docs", "section": "\uD83D\uDCDD Docs", "hidden": false},
           {"type": "refactor", "section": "♻️Refactors", "hidden": false},
           {"type": "test", "section": "🧪 Tests", "hidden": false},
+          {"type": "infra", "section": "🏗️ Infrastructure Changes", "hidden": false },
           {"type": "build", "section": "🛠 Build", "hidden": true},
           {"type": "perf", "hidden": true},
           {"type": "style", "hidden": true},
