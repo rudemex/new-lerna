@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "lerna": "^8.1.9"
   },
   "scripts": {
