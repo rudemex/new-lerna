@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/rudemex/new-lerna/compare/mypkg@1.1.3...mypkg@1.1.4) (2024-11-01)
+
+
+### 🏗️ Infrastructure Changes
+
+* add comment ([6569a97](https://github.com/rudemex/new-lerna/commit/6569a97b16b5a54c224d0fe0cd01a5eb603cdf20))
+
+
+
 ## [1.1.3](https://github.com/rudemex/new-lerna/compare/mypkg@1.1.2...mypkg@1.1.3) (2024-11-01)
 
 
