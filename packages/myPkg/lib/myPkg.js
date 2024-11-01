@@ -2,6 +2,6 @@
 
 module.exports = myPkg;
 
-const myPkg = () => {
+function myPkg() {
   return 'Hello from myPkg';
 }

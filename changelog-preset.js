@@ -1,7 +1,7 @@
-const config = require('conventional-changelog-conventionalcommits')
+const config = require("conventional-changelog-conventionalcommits");
 
 module.exports = config({
-    name:"conventionalcommits",
+    //name:"conventionalcommits",
     header: '<div align="center"><h1>📝 Changelog</h1><p>All changes in this package are documented below.</p></div>\n\n---\n',
     types: [
         { type: "feat", section: "✨ Features", hidden: false },
@@ -17,5 +17,10 @@ module.exports = config({
         { type: "ci", hidden: true },
         { type: "revert", hidden: true }
     ],
-    issuePrefixes: ['#']
+    issuePrefixes: ["#"],
+    commitUrlFormat: "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+    compareUrlFormat: "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+    issueUrlFormat: "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
+    userUrlFormat: "{{host}}/{{user}}",
+    releaseCommitMessageFormat: "chore(release): {{currentTag}}"
 })
